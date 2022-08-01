@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+nav,
+#hero {
+    font-family: 'Raleway', sans-serif;
+}
+
+#features {
+    background: url('images/bg-curve-desktop.svg');
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 100%;
+
+}
+
+.footer-logo {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
